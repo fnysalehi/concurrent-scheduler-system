@@ -1,0 +1,28 @@
+# Build directories
+build/
+*.exe
+
+# IDE specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Debug files
+*.pdb
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
