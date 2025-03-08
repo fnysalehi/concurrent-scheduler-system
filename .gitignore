@@ -26,3 +26,11 @@ build/
 CMakeFiles/
 CMakeCache.txt
 *.cmake
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*

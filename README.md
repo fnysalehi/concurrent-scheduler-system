@@ -1,21 +1,27 @@
-# Concurrent Scheduler System
+# Operating Systems Concepts Implementation
 
-A concurrent process scheduling system implementing multiple scheduling algorithms for both memory and logic processes. The system demonstrates concepts in operating systems and concurrent programming.
+An ongoing collection of practical implementations demonstrating fundamental operating system concepts and mechanisms. Each implementation serves as a working example of core OS principles, focusing on system programming and concurrent operations.
 
-## Features
+## Projects
 
-- **Dual Queue Management**: Separate handling of memory and logic processes
-- **Multiple Scheduling Algorithms**:
-  - Round Robin (RR)
-  - Shortest Remaining Time (SRT)
-  - Highest Response Ratio Next (HRRN)
-  - Multilevel Queue Scheduling
-- **Concurrent Execution**: Thread-based implementation for parallel process handling
-- **Priority-based Processing**: Support for process priorities and quantum-based execution
+### 1. Command Pipeline System (`pipe-commands/`)
 
-## Performance Considerations
+A demonstration of inter-process communication (IPC) using pipes to create command pipelines, similar to shell command chaining (e.g., `ls / | wc -l`). This implementation showcases:
 
-- Thread-safe operations using mutex locks
-- Efficient process queue management
-- Optimized scheduling algorithms
+- Process creation and management
+- File descriptor handling
+- Inter-process communication using pipes
+- System call error handling
 
+[More details](pipe-commands/README.md)
+
+### 2. Process Scheduler (`process-scheduler/`)
+
+A concurrent process scheduling system implementing multiple scheduling algorithms for both memory and logic processes. Features include:
+
+- Multiple scheduling algorithms (RR, SRT, HRRN)
+- Dual queue management
+- Priority-based processing
+- Thread-safe operations
+
+[More details](process-scheduler/README.md)
